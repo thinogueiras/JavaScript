@@ -1,4 +1,4 @@
-let valorIngressoErrado = 20; // let permite alterar / redefinir o valor da variável
+const valorIngressoErrado = 20; // let permite alterar / redefinir o valor da variável
 
 valorIngresso = 30;
 

@@ -1,7 +1,7 @@
-let numero1 = 5;
+const numero1 = 5;
 
-let numero2 = 10;
+const numero2 = 10;
 
-let soma = numero1 + numero2;
+const soma = numero1 + numero2;
 
 console.log(soma);

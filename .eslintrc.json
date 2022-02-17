@@ -1,0 +1,28 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "airbnb-base"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 11,
+        "sourceType": "script"
+    },
+    "rules": {
+        "indent": [
+            "error", "4"
+        ],
+        "no-console": "off",
+        "no-undef": "off",
+        "func-names": "off",
+        "max-len": "off",
+        "no-unused-vars": "warn",
+        "linebreak-style": "off",
+        "prefer-const": "warn",
+        "eol-last": "warn",
+        "no-undef-init":"warn"
+    }
+}

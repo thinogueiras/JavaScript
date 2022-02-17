@@ -1,9 +1,10 @@
-//Objeto pessoa
-let pessoa = {
+// Objeto pessoa
+
+const pessoa = {
     nome: 'Thiago',
     sobrenome: 'Nogueira',
     idade: 32,
-    estaAprovado: true
+    estaAprovado: true,
 };
 
 console.log(pessoa);

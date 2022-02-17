@@ -1,9 +1,9 @@
-let corSite = "azul";
+let corSite = 'azul';
 
 // Função sem parâmetros
 function resetarCor() {
-    corSite = "";    
-};
+    corSite = '';
+}
 
 console.log(corSite);
 resetarCor();
@@ -11,15 +11,15 @@ console.log(corSite);
 
 // Função com parâmetros
 function alterarCor(cor) {
-    corSite = cor;    
-};
+    corSite = cor;
+}
 
-alterarCor("vermelho");
+alterarCor('vermelho');
 console.log(corSite);
 
-function alterarCorAndTonalidade(cor, tonalidade){
-    corSite = cor + " " + tonalidade;
-};
+function alterarCorAndTonalidade(cor, tonalidade) {
+    corSite = `${cor} ${tonalidade}`;
+}
 
-alterarCorAndTonalidade("verde", "claro");
+alterarCorAndTonalidade('verde', 'claro');
 console.log(corSite);

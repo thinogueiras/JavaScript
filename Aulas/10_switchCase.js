@@ -1,10 +1,12 @@
 let permissaoUser; // comum, gerente, diretor 
 
+permissaoUser = 'gerente';
+
 switch (permissaoUser) {
     case 'comum':
         console.log('Usuário comum');
         break;
-    
+
     case 'gerente':
         console.log('Usuário gerente');
         break;
@@ -13,6 +15,6 @@ switch (permissaoUser) {
         console.log('Usuário diretor');
         break;
 
-    default: 'comum'
-        break;
+    default:
+        console.log('Usuário não classificado');
 }

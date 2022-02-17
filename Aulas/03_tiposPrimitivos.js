@@ -1,5 +1,5 @@
-let nome = 'Thiago'; // string literal
-let idade = 32; // number literal
-let estaAprovado = true; // boolean
-let sobrenome = undefined; // Undefined
-let corSelecionada = null; // Redefinir um valor
+const nome = 'Thiago'; // string literal
+const idade = 32; // number literal
+const estaAprovado = true; // boolean
+const sobrenome = undefined; // Undefined
+const corSelecionada = null; // Redefinir um valor
