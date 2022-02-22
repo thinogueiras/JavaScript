@@ -8,9 +8,12 @@
     "editor.fontSize": 16,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
+    "editor.wordWrap": "on",
     "bracket-pair-colorizer-2.depreciation-notice": false,
     "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     "workbench.startupEditor": "none",
     "editor.formatOnType": true,
-    "eslint.alwaysShowStatus": true    
+    "eslint.alwaysShowStatus": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.codeLensFontFamily": "Fira Code"
 }
