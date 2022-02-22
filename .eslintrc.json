@@ -13,7 +13,11 @@
     },
     "rules": {
         "indent": [
-            "error", "4"
+            "error",
+            4,
+            {
+                "SwitchCase": 1
+            }
         ],
         "no-console": "off",
         "no-undef": "off",
@@ -23,6 +27,10 @@
         "linebreak-style": "off",
         "prefer-const": "warn",
         "eol-last": "warn",
-        "no-undef-init":"warn"
+        "no-undef-init": "warn",
+        "no-plusplus": [0, { "allowForLoopAfterthoughts": true }],
+        "no-self-compare": "warn",
+        "no-restricted-syntax": "off",
+        "guard-for-in": "off"
     }
 }

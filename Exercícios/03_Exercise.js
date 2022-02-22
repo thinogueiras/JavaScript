@@ -9,3 +9,10 @@ function verificaNumeroMaior(numero1, numero2) {
         console.log('Número maior: ', numero2);
     }
 }
+
+function max(n1, n2) {
+    return n1 > n2 ? n1 : n2;
+}
+
+const valorMaior = max(0.001, 0.01);
+console.log(valorMaior);

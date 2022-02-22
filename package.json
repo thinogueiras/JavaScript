@@ -1,18 +1,16 @@
 {
   "name": "cursojavascript",
   "version": "1.0.0",
-  "description": "",
+  "description": "Iniciando com NodeJS - Linx",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thinogueiras/CursoJavascript.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Thiago Nogueira dos Santos",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/thinogueiras/CursoJavascript/issues"
   },

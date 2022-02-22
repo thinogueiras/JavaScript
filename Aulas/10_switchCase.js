@@ -1,6 +1,5 @@
-let permissaoUser; // comum, gerente, diretor 
-
-permissaoUser = 'gerente';
+// comum, gerente, diretor
+const permissaoUser = 'gerente';
 
 switch (permissaoUser) {
     case 'comum':

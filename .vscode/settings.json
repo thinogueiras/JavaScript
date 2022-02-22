@@ -1,12 +1,16 @@
 {
-    "workbench.iconTheme": "vscode-icons",    
+    "workbench.iconTheme": "vscode-icons",
     "files.eol": "\r\n",
     "eslint.format.enable": true,
-    "explorer.confirmDelete": true,    
+    "explorer.confirmDelete": true,
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.fontSize": 16,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
-    "bracket-pair-colorizer-2.depreciation-notice": false
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "workbench.startupEditor": "none",
+    "editor.formatOnType": true,
+    "eslint.alwaysShowStatus": true    
 }
