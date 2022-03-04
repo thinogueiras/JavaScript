@@ -1,3 +1,9 @@
+/*
+"Crie um função que ao ser executada no terminal que leia a idade de uma pessoa expressa em anos, meses e dias e escreva a idade dessa pessoa expressa apenas em dias. Considerar variaveis de retorno como :
+- Ano com 365 dias
+- Mês com 30 dias."
+*/
+
 const data = new Date();
 
 function getDays(dataNascimento) {

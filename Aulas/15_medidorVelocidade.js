@@ -1,7 +1,9 @@
-// Velocidade máxima de até 70
-// a cada 5km acima do limite, o condutor perde 1 ponto na CNH
-// Math.Floor()
-// caso pontos maior > 12 => "CNH suspendida"
+/*
+Velocidade máxima de até 70
+a cada 5km acima do limite, o condutor perde 1 ponto na CNH
+Math.Floor()
+caso pontos maior > 12 => "CNH suspendida"
+*/
 
 let pontos;
 const quilometragemDeCorte = 5;
@@ -22,6 +24,8 @@ function verificarVelocidade(velocidade) {
         }
     }
 }
+
+// Cenários de teste
 
 verificarVelocidade(50); // OK
 verificarVelocidade(70); // OK

@@ -11,4 +11,8 @@ function printN(n) {
     }
 }
 
+// Cenários de teste
+
 printN(5);
+printN(0);
+printN(-22);

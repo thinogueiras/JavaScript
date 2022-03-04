@@ -1,3 +1,7 @@
+/*
+Crie um função que ao ser executada no terminal ao ler um valor e escrever se é positivo, negativo ou zero.
+*/
+
 function verificaNumero(numero) {
     if (numero > 0) {
         console.log('Positivo.');
@@ -7,6 +11,8 @@ function verificaNumero(numero) {
         console.log('Número igual a 0 (zero).');
     }
 }
+
+// Cenários de teste
 
 verificaNumero(10000);
 verificaNumero(0.00);

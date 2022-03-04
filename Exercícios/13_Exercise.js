@@ -1,5 +1,5 @@
 /*
-Crie um função que ao ser executada no terminal que modifique o  exercício anterior para aceitar somente valores maiores que 0 para N. Caso o valor informado (para N) não seja maior que 0, deverá ser lido um novo valor para N.
+Crie um função que ao ser executada no terminal que modifique o exercício anterior para aceitar somente valores maiores que 0 para N. Caso o valor informado (para N) não seja maior que 0, deverá ser lido um novo valor para N.
 */
 
 function printN() {
@@ -13,3 +13,11 @@ function printN() {
 }
 
 printN();
+
+// Executar em algum Web Browser.
+
+// Cenários de teste
+
+// Informar uma string
+// Informar o número 0
+// Informar um número maior que 0

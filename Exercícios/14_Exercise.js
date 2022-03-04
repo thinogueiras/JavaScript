@@ -1,6 +1,7 @@
 /*
 Crie um função que ao ser executada no terminal leia 10 valores e escrever quantos desses valores lidos são NEGATIVOS.
 */
+
 const numbers = [1, -1, 3, 4, -22, 0, 9, -10, 10, -99];
 let count = 0;
 const arrayNegatives = [];
