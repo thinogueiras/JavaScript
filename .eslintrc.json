@@ -3,8 +3,8 @@
         "airbnb-base"
     ],
     "parserOptions": {
-        "ecmaVersion": 2021,
-        "sourceType": "script"
+        "ecmaVersion": "latest",
+        "sourceType": "module"
     },
     "rules": {
         "indent": [
@@ -26,6 +26,6 @@
         "no-plusplus": [0, { "allowForLoopAfterthoughts": true }],
         "no-self-compare": "warn",
         "no-restricted-syntax": "off",
-        "guard-for-in": "off"
+        "guard-for-in": "off"        
     }
 }

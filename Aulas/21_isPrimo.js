@@ -1,3 +1,7 @@
+/*
+Número primo é divisível por 1 e por ele mesmo
+*/
+
 function numeroPrimo(numero) {
     for (let divisor = 2; divisor < numero; divisor++) {
         if (numero % divisor === 0) {
@@ -13,4 +17,4 @@ function showPrimos(limite) {
     }
 }
 
-showPrimos(15);
+showPrimos(20);
