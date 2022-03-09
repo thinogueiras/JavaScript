@@ -1,7 +1,7 @@
 {
     "extends": [
-        "airbnb-base"
-    ],
+        "airbnb-base"        
+    ],    
     "parserOptions": {
         "ecmaVersion": "latest",
         "sourceType": "module"
@@ -26,6 +26,8 @@
         "no-plusplus": [0, { "allowForLoopAfterthoughts": true }],
         "no-self-compare": "warn",
         "no-restricted-syntax": "off",
-        "guard-for-in": "off"        
+        "guard-for-in": "off",
+        "no-restricted-imports": "off",
+        "class-methods-use-this": "warn"      
     }
 }

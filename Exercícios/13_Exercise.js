@@ -1,11 +1,13 @@
-/*
-Crie um função que ao ser executada no terminal que modifique o exercício anterior para aceitar somente valores maiores que 0 para N. Caso o valor informado (para N) não seja maior que 0, deverá ser lido um novo valor para N.
-*/
+// Informar uma string
+// Informar o número 0
+// Informar um número maior que 0
 
 function printN() {
-    let n = prompt('Digite um valor para N');
-    while (n <= 0) {
-        n = prompt('N deve ser numérico e maior que zero!!!');
+    const { n } = process.env;
+    if (n <= 0) {
+        console.log('N deve maior que zero!!!');
+    } else if (typeof n === 'string') {
+        console.log('N deve ser numérico');
     }
     for (let i = 1; i <= n; i++) {
         console.log(i);
@@ -13,11 +15,3 @@ function printN() {
 }
 
 printN();
-
-// Executar em algum Web Browser.
-
-// Cenários de teste
-
-// Informar uma string
-// Informar o número 0
-// Informar um número maior que 0

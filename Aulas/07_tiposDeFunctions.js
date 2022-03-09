@@ -42,6 +42,7 @@ console.log(somaTeste03(1.5, 1.32));
 // Simplificando a sintaxe quando existe apenas um parâmetro
 
 // const somaTeste04 = (a) => a + a
+
 const somaTeste04 = (a) => a + a;
 
 console.log(somaTeste04(1.2, 1.2));

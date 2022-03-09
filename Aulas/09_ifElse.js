@@ -8,11 +8,6 @@ if (hora >= 0 && hora < 12) {
     console.log('Boa noite');
 }
 
-// const saudacao = () => {
-//     const data = new Date();
-//     return data.getHours() < 12 ? 'Bom dia' : data.getHours() < 18 ? 'Boa tarde' : 'Boa noite';
-// };
-
 const getSaudacao = function saudacao() {
     const data = new Date();
     if (data.getHours() >= 0 && data.getHours() < 12) {

@@ -18,3 +18,5 @@ function max(n1, n2) {
 
 const valorMaior = max(0.001, 0.01);
 console.log(valorMaior);
+
+verificaNumeroMaior(2.5, -1.00);
