@@ -1,3 +1,5 @@
+const Human = require('./Human');
+
 class Wizard extends Human {
     constructor(name, age, powers = []) {
         super(name, age);

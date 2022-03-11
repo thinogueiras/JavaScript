@@ -29,6 +29,6 @@
         "guard-for-in": "off",
         "no-restricted-imports": "off",
         "class-methods-use-this": "warn",
-        "max-classes-per-file": ["error", { "ignoreExpressions": true, "max": 3 }]  
+        "no-return-assign": "off"  
     }
 }

@@ -1,6 +1,6 @@
 const faker = require('faker');
-const Wizard = require('./Entities/Wizard');
 const Human = require('./Entities/Human');
+const Wizard = require('./Entities/Wizard');
 const Witch = require('./Entities/Witch');
 
 const randomHuman = new Human(faker.name.firstName(), faker.datatype.number(99));
@@ -27,4 +27,4 @@ console.log(anotherRandomWizard.showRandowPower());
 
 const randowWitch = new Witch(faker.name.firstName(), faker.datatype.number(1000));
 
-console.log(`${randowWitch.greet()}, I'm Sorcere: ${randowWitch.name}.`);
+console.log(`${randowWitch.greet()}, I'm the Sorcerer: ${randowWitch.name}.`);
