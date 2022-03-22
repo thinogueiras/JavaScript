@@ -6,8 +6,10 @@ const pessoa = {
 };
 
 for (const chave in pessoa) {
-    console.log(chave, pessoa[chave]);
+    console.log(`${chave.toUpperCase()}: ${pessoa[chave]}`);
 }
+
+console.log('');
 
 // For off
 

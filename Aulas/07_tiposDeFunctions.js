@@ -33,8 +33,6 @@ const somaTeste02 = (a, b) => a + b;
 
 console.log(somaTeste02(1.5, 1.33));
 
-//
-
 const somaTeste03 = (a, b) => a + b;
 
 console.log(somaTeste03(1.5, 1.32));

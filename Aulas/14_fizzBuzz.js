@@ -1,5 +1,5 @@
-// Valor divisível por => Fizz
-// Valor divisível por => Buzz
+// Valor divisível por 3 => Fizz
+// Valor divisível por 5 => Buzz
 // Valor divisível por 3 e 5 => FizzBuzz
 // Valor não divisível por 3 e 5 => valor
 // Não é número => 'Não é número'
