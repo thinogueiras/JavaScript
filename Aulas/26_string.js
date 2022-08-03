@@ -15,3 +15,7 @@ console.log(novaMensagem.split(' ')); // [ 'Bom', 'dia', 'grupo', 'Linx' ]
 console.log(novaMensagem.substring(0, 3)); // Bom
 console.log(novaMensagem.substring(14, 24)); // Stone-Linx
 console.log(mensagem.concat('/', novaMensagem.substring(14, 24)));
+
+const testTrim = '      Marcas       teste                                                                        @';
+console.log(testTrim);
+console.log(testTrim.trim());
